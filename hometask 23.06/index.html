@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Favorite Movies</h1>
+        <div class="myheader">
+            <div class="header1">
+                <h2>My Title: </h2>
+                <input type="text" class="mytitle" id="mytitle">
+            </div>
+            <div class="header2">
+                <h2>My Rate: </h2>
+                <input type="number" max="10" min="0" class="myrating" id="myrating">
+            </div>
+            <button class="mybtn1" id="mybtn1">Add</button>
+        </div>
+
+        <div class="mytable">
+            <table style="width:80%" class="table1">
+                <thead>
+                    <tr>
+                        <th style="width: 50%">Title</th>
+                        <th style="width: 40%">Rating</th>
+                        <th style="width: 10%">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width: 50%">Bright Star</td>
+                        <td style="width: 40%">7</td>
+                        <td style="width: 10%"><button class="delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%">The Dark Knight</td>
+                        <td style="width: 40%">8.4</td>
+                        <td style="width: 10%"><button class="delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%">Gladiator</td>
+                        <td style="width: 40%">7.8</td>
+                        <td style="width: 10%"><button class="delete">Delete</button></td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
